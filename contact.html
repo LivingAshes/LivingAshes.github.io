@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.js">
+</head>
+<body>
+    <script src=""></script>
+    <nav class=""navbar sticky-top bg-dark>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Index</a></li>
+                <a class="nav-link"  href="about.html">About</a></li>
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a></li>
+            </div>
+        </div>
+    </nav>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="Inputemail" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="Inputemail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We need this to be correct so we can get back with you</div>
+        </div>
+        <div class="mb-3">
+            <label for="Inputmessage" class="form-label">Message</label>
+            <input type="text" class="form-control" id="Inputmessage">
+        </div>
+        <p>Purpose of Contact: </p>
+        <div class="mb-3">
+            <input type="radio" class="form-check-input" id="rad1" name="optradio" value="academic"checked>academic
+            <label class="form-check-label" for="rad1"></label>
+        </div>
+        <div class="mb-3">
+            <input type="radio" class="form-check-input" id="rad2" name="optradio" value="occupational"checked>occupational
+            <label class="form-check-label" for="rad2"></label>
+        </div>
+        <div class="mb-3">
+            <input type="radio" class="form-check-input" id="rad3" name="optradio" value="recreational"checked>recreational
+            <label class="form-check-label" for="rad3"></label>
+        </div>
+        <a href="results.html" class="btn btn-info" role="button">Submit</a>
+        <button type="submit" class="btn btn-link" href="results.html">Submit</button>
+    </form>
+</body>
+</html>
